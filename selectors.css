@@ -1,0 +1,62 @@
+/* The header element should have a 1px border. Color, you pick. */
+header {
+border: 1px solid black;
+}
+header.a li {
+display: inline-block;
+list-style-type: none;
+padding-right: 20px;
+float: left;
+}
+
+/* Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. */
+.disabled {
+  color: gray;
+}
+
+/* Any text in an element (a) with class "disabled" should be colored purple */
+.disabled a {
+  color: purple;
+}
+
+/* Make the "I'm red" text colored red */
+.red {
+  color: red;
+}
+
+/* Make the "I'm blue" text colored blue */
+.blue {
+  color: blue;
+}
+
+/* The sibling h4 of the red element should have a background color of red */
+#redsSister {
+  background-color: red;
+}
+
+/* The sibling h4 of the blue element should have background color of blue  */
+#bluesBrother {
+  background-color: blue;
+}
+
+/* Any text inside an element with a class of "active" should be colored yellow */
+.active {
+  color: yellow;
+}
+
+/* Any h4 that is a direct child of grandparent should have a 1px border with rounded corners */
+#cog {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* Elements with a class of promo should have bold text that is also colored gold. */
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+/* Without adding any other attributes to the input fields in the footer, write a CSS selector that makes any text input field have a height of 25px. */
+input {
+  height: 25px;
+}
