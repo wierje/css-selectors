@@ -1,7 +1,8 @@
 /* The header element should have a 1px border. Color, you pick. */
-header {
+header.a {
 border: 1px solid black;
 }
+
 header.a li {
 display: inline-block;
 list-style-type: none;
